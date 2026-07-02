@@ -439,8 +439,8 @@ OS_NAME=
 ARCH=
 OS=
 INSTALL=0
-RPM_RELEASE=1
-DEB_RELEASE=1
+RPM_RELEASE=2
+DEB_RELEASE=2
 REVISION=0
 BUILD_REPO=https://github.com/percona/haproxy-packaging.git
 BRANCH="v2.8.23"
@@ -449,7 +449,7 @@ PRODUCT=percona-haproxy
 DEBUG=0
 parse_arguments PICK-ARGS-FROM-ARGV "$@"
 VERSION='2.8.23'
-RELEASE='1'
+RELEASE='2'
 PRODUCT_FULL=${PRODUCT}-${VERSION}-${RELEASE}
 
 check_workdir
